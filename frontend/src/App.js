@@ -66,7 +66,12 @@ class CustomerApp extends Component {
                 <tbody>
                   { this.state.customers.map(customer => 
                     <tr key={customer.id}>
-                      <td><a href="#" onClick={() => this.getCustomer(customer)}>{customer.name}</a></td>
+                      <td>  <button 
+    className="link-style-button" 
+    onClick={() => this.getCustomer(customer)}
+  >
+    {customer.name}
+  </button></td>
                       <td>{customer.employees}</td>
                       <td>{customer.size}</td>
                     </tr>  
