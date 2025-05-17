@@ -12,7 +12,7 @@
     stages {
         stage('Clone repository') {
             steps {
-                git 'https://github.com/HichemBenMosbah/devops.git'
+                git branch: 'main', url: 'https://github.com/HichemBenMosbah/devops.git'
             }
         }
 
