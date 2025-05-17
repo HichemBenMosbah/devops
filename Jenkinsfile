@@ -4,7 +4,7 @@
 
     environment {
         DOCKER_HUB_CREDENTIALS = 'dockerhub-credentials-id' // Jenkins credentials ID
-        DOCKER_HUB_USERNAME = 'your-dockerhub-username'
+        DOCKER_HUB_USERNAME = 'hichembm'
         BACKEND_IMAGE_NAME = 'devops-backend'
         FRONTEND_IMAGE_NAME = 'devops-frontend'
     }
